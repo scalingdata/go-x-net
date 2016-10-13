@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/ipv4"
+	"github.com/scalingdata/go-x-net/ipv4"
 )
 
 type ipv4HeaderTest struct {

@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/net/http2/hpack"
-	"golang.org/x/net/lex/httplex"
+	"github.com/scalingdata/go-x-net/http2/hpack"
+	"github.com/scalingdata/go-x-net/lex/httplex"
 )
 
 // writeFramer is implemented by any type that is used to write frames.

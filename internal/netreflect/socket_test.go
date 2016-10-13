@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/internal/netreflect"
+	"github.com/scalingdata/go-x-net/internal/netreflect"
 )
 
 func localPath() string {

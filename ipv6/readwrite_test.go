@@ -12,9 +12,9 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/internal/nettest"
-	"golang.org/x/net/ipv6"
+	"github.com/scalingdata/go-x-net/internal/iana"
+	"github.com/scalingdata/go-x-net/internal/nettest"
+	"github.com/scalingdata/go-x-net/ipv6"
 )
 
 func benchmarkUDPListener() (net.PacketConn, net.Addr, error) {

@@ -60,7 +60,7 @@ The /debug/events HTTP endpoint organizes the event logs by family and
 by time since the last error.  The expanded view displays recent log
 entries and the log's call stack.
 */
-package trace // import "golang.org/x/net/trace"
+package trace // import "github.com/scalingdata/go-x-net/trace"
 
 import (
 	"bytes"
@@ -77,8 +77,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/net/internal/timeseries"
+	"github.com/scalingdata/go-x-net/context"
+	"github.com/scalingdata/go-x-net/internal/timeseries"
 )
 
 // DebugUseAfterFinish controls whether to debug uses of Trace values after finishing.
@@ -269,7 +269,7 @@ func lookupBucket(fam string, b int) *traceBucket {
 
 type contextKeyT string
 
-var contextKey = contextKeyT("golang.org/x/net/trace.Trace")
+var contextKey = contextKeyT("github.com/scalingdata/go-x-net/trace.Trace")
 
 // NewContext returns a copy of the parent context
 // and associates it with a Trace.

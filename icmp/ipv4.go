@@ -9,7 +9,7 @@ import (
 	"net"
 	"runtime"
 
-	"golang.org/x/net/ipv4"
+	"github.com/scalingdata/go-x-net/ipv4"
 )
 
 // ParseIPv4Header parses b as an IPv4 header of ICMP error message

@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"golang.org/x/net/internal/netreflect"
+	"github.com/scalingdata/go-x-net/internal/netreflect"
 )
 
 // A Conn represents a network endpoint that uses IPv6 transport.

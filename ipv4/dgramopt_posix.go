@@ -10,7 +10,7 @@ import (
 	"net"
 	"syscall"
 
-	"golang.org/x/net/internal/netreflect"
+	"github.com/scalingdata/go-x-net/internal/netreflect"
 )
 
 // MulticastTTL returns the time-to-live field value for outgoing

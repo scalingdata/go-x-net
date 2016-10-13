@@ -9,7 +9,7 @@ package ipv6
 import (
 	"syscall"
 
-	"golang.org/x/net/internal/netreflect"
+	"github.com/scalingdata/go-x-net/internal/netreflect"
 )
 
 // TrafficClass returns the traffic class field value for outgoing

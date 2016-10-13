@@ -14,7 +14,7 @@
 //
 // See https://http2.golang.org/ for a test server running this code.
 //
-package http2 // import "golang.org/x/net/http2"
+package http2 // import "github.com/scalingdata/go-x-net/http2"
 
 import (
 	"bufio"
@@ -29,7 +29,7 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/net/lex/httplex"
+	"github.com/scalingdata/go-x-net/lex/httplex"
 )
 
 var (

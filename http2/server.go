@@ -56,7 +56,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/http2/hpack"
+	"github.com/scalingdata/go-x-net/http2/hpack"
 )
 
 const (

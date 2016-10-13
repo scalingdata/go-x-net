@@ -10,7 +10,7 @@ import (
 	"net"
 	"syscall"
 
-	"golang.org/x/net/internal/iana"
+	"github.com/scalingdata/go-x-net/internal/iana"
 )
 
 var (

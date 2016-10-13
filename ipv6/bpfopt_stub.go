@@ -6,7 +6,7 @@
 
 package ipv6
 
-import "golang.org/x/net/bpf"
+import "github.com/scalingdata/go-x-net/bpf"
 
 // SetBPF attaches a BPF program to the connection.
 //

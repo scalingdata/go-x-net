@@ -10,7 +10,7 @@ import (
 	"os"
 	"syscall"
 
-	"golang.org/x/net/internal/iana"
+	"github.com/scalingdata/go-x-net/internal/iana"
 )
 
 func setControlMessage(s uintptr, opt *rawOpt, cf ControlFlags, on bool) error {
