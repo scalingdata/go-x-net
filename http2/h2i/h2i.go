@@ -35,7 +35,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/crypto/ssh/terminal"
+	"github.com/scalingdata/go-x-crypto/ssh/terminal"
 	"github.com/scalingdata/go-x-net/http2"
 	"github.com/scalingdata/go-x-net/http2/hpack"
 )
